@@ -1,0 +1,210 @@
+
+
+
+[
+    {
+      "_id": "1",
+      "brand_name": "ElectroMart",
+      "rating": 4.5,
+      "description": "Get the latest electronics at unbeatable prices.",
+      "brand_logo": "https://i.ibb.co.com/5xYGFCp/images.png",
+      "coupons": [
+        {
+          "coupon_code": "ELEC10",
+          "description": "10% off on electronics",
+          "expiry_date": "2024-12-31",
+          "condition": "Minimum purchase of $50",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "FREEDEL",
+          "description": "Free delivery on orders above $30",
+          "expiry_date": "2024-11-30",
+          "condition": "Applicable only on weekends",
+          "coupon_type": "Flat"
+        }
+      ],
+      "shop_Link": "https://electromart.com",
+      "category": "Electronics",
+      "isSaleOn": true
+    },
+    {
+      "_id": "2",
+      "brand_name": "FashionHub",
+      "rating": 4.2,
+      "description": "Trendy fashion for every occasion.",
+      "brand_logo": "https://i.ibb.co.com/n7nswWf/Fashion-Hub.png",
+      "coupons": [
+        {
+          "coupon_code": "STYLE20",
+          "description": "20% off on all items",
+          "expiry_date": "2024-11-30",
+          "condition": "No minimum purchase required",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "FREESHIP",
+          "description": "Free shipping on orders above $40",
+          "expiry_date": "2024-12-15",
+          "condition": "Not valid on discounted items",
+          "coupon_type": "Flat"
+        }
+      ],
+      "shop_Link": "https://fashionhub.com",
+      "category": "Clothing",
+      "isSaleOn": true
+    },
+    {
+      "_id": "3",
+      "brand_name": "GroceryGo",
+      "rating": 4.8,
+      "description": "Fresh groceries delivered to your doorstep.",
+      "brand_logo": "https://i.ibb.co.com/TWCNqQp/Grocery-Go.jpg",
+      "coupons": [
+        {
+          "coupon_code": "SAVE15",
+          "description": "15% off on your first order",
+          "expiry_date": "2024-12-31",
+          "condition": "New customers only",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://grocerygo.com",
+      "category": "Groceries",
+      "isSaleOn": false
+    },
+    {
+      "_id": "4",
+      "brand_name": "BookNest",
+      "rating": 4.9,
+      "description": "A paradise for book lovers.",
+      "brand_logo": "https://i.ibb.co.com/Pr8DR3J/BookNest.jpg",
+      "coupons": [
+        {
+          "coupon_code": "BOOK10",
+          "description": "Flat $10 off on orders above $100",
+          "expiry_date": "2024-12-01",
+          "condition": "Not applicable on rare collections",
+          "coupon_type": "Flat"
+        }
+      ],
+      "shop_Link": "https://booknest.com",
+      "category": "Books",
+      "isSaleOn": true
+    },
+    {
+      "_id": "5",
+      "brand_name": "FitGear",
+      "rating": 4.3,
+      "description": "Premium fitness gear and accessories.",
+      "brand_logo": "https://i.ibb.co.com/qjLyZCd/FitGear.jpg",
+      "coupons": [
+        {
+          "coupon_code": "FIT50",
+          "description": "50% off on selected items",
+          "expiry_date": "2024-12-25",
+          "condition": "Limited stock available",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://fitgear.com",
+      "category": "Fitness",
+      "isSaleOn": true
+    },
+    {
+      "_id": "6",
+      "brand_name": "BeautyBox",
+      "rating": 4.6,
+      "description": "Discover the best in skincare and cosmetics.",
+      "brand_logo": "https://i.ibb.co.com/KsSrvVM/Beauty-Box.png",
+      "coupons": [
+        {
+          "coupon_code": "GLOW20",
+          "description": "20% off on skincare products",
+          "expiry_date": "2024-11-28",
+          "condition": "Minimum purchase of $30",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://beautybox.com",
+      "category": "Beauty",
+      "isSaleOn": false
+    },
+    {
+      "_id": "7",
+      "brand_name": "TechArena",
+      "rating": 4.7,
+      "description": "The best gadgets at the best prices.",
+      "brand_logo": "https://i.ibb.co.com/cxRXPqR/Tech-Arena.png",
+      "coupons": [
+        {
+          "coupon_code": "TECH100",
+          "description": "Flat $100 off on laptops",
+          "expiry_date": "2024-12-31",
+          "condition": "Applicable on select models only",
+          "coupon_type": "Flat"
+        }
+      ],
+      "shop_Link": "https://techarena.com",
+      "category": "Technology",
+      "isSaleOn": true
+    },
+    {
+      "_id": "8",
+      "brand_name": "HomeEssentials",
+      "rating": 4.4,
+      "description": "Everything you need to make a house a home.",
+      "brand_logo": "https://i.ibb.co.com/25532VW/Home-Essentials.png",
+      "coupons": [
+        {
+          "coupon_code": "HOME15",
+          "description": "15% off on home decor",
+          "expiry_date": "2024-12-20",
+          "condition": "No minimum purchase",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://homeessentials.com",
+      "category": "Home",
+      "isSaleOn": false
+    },
+    {
+      "_id": "9",
+      "brand_name": "PetParadise",
+      "rating": 4.5,
+      "description": "Pamper your pets with the best products.",
+      "brand_logo": "https://i.ibb.co.com/k0FsB12/Pet-Paradise.jpg",
+      "coupons": [
+        {
+          "coupon_code": "PET10",
+          "description": "10% off on all pet supplies",
+          "expiry_date": "2024-11-30",
+          "condition": "No minimum purchase",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://petparadise.com",
+      "category": "Pets",
+      "isSaleOn": true
+    },
+    {
+      "_id": "10",
+      "brand_name": "TravelEase",
+      "rating": 4.9,
+      "description": "Your travel partner for the best deals.",
+      "brand_logo": "https://i.ibb.co.com/jvSjRkw/Travel-Ease.png",
+      "coupons": [
+        {
+          "coupon_code": "TRAVEL30",
+          "description": "30% off on holiday packages",
+          "expiry_date": "2024-12-31",
+          "condition": "Valid for domestic trips only",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_Link": "https://travelease.com",
+      "category": "Travel",
+      "isSaleOn": true
+    }
+  ]
+  
